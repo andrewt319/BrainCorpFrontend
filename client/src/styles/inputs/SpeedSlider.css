@@ -1,0 +1,33 @@
+.SpeedSlider {
+    display: flex;
+    flex-direction: column;
+}
+
+.SpeedSlider h1 {
+    padding-bottom: 15vh;
+}
+
+.slider input {
+  -webkit-appearance: none;
+  width: 15rem;
+  height: 10px;
+  background: #ccc;
+  cursor: pointer;
+  outline: none;
+  transform: rotate(-90deg);
+  border-radius: 5px;
+}
+
+.slider input:range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.speed-label {
+  padding-left: 5rem;
+}

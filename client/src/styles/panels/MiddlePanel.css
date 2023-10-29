@@ -1,0 +1,7 @@
+.MiddlePanel {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 4rem;
+    padding-bottom: 9rem;
+}

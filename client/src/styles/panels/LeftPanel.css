@@ -1,0 +1,5 @@
+.LeftPanel {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
