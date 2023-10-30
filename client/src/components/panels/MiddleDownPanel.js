@@ -9,7 +9,6 @@ const MiddleDownPanel = ({logs}) => {
   const [y, setY] = useState(0);
 
   const handleLeftButtonPress = () => {
-    console.log('here')
     setX(x - 1);
   };
 

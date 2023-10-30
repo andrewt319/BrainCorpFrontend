@@ -5,13 +5,13 @@ import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 const UpDownButton = ({updateCoord, direction, logs}) => {
   const handleChange = () => {
     if (logs.length !== 0) {
+      updateCoord();
       if (direction === "up") {
         logs.push("Moved Up!");
       } else {
         logs.push("Moved Down!");
       }
     }
-    updateCoord();
   }
 
   return (
